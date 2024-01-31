@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PaySpace.Common\PaySpace.Common.csproj" />
+    <ProjectReference Include="..\PaySpace.Data\PaySpace.Data.csproj" />
+    <ProjectReference Include="..\PaySpace.Model\PaySpace.Model.csproj" />
+  </ItemGroup>
+
+</Project>
